@@ -1,0 +1,49 @@
+/* body{
+    border: solid black 10px;
+} */
+body {
+  background-color: var(--color2);
+  margin: 0px;
+  height: 30px;
+}
+header {
+  background-color: var(--color1);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.navBar {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  flex-direction: column;
+  flex-direction: row-reverse;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color5);
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Hide checkbox */
+.footer img {
+  width: 30px;
+
+  margin-top: 10px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: var(--color1);
+  gap: 10px;
+}
+
+:root {
+  --color1: #ddbea8;
+  --color2: #f3dfc1;
+  --color3: #945d5e;
+  --color4: #a77979;
+  --color5: #160f29;
+}
