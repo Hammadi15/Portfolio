@@ -12,8 +12,11 @@ header {
   margin-top: 30px;
   display: flex;
   justify-content: space-between;
-  padding-left: 20px;
+  /* padding-left: 20px; */
+  padding: 0px 20px 0px 20px;
   flex-direction: row;
+  
+
 }
 
 a {
@@ -59,12 +62,35 @@ a {
   margin-top: 10px;
 }
 .footer {
-  display: flex;
+  text-align: center;
   justify-content: center;
   background-color: var(--color1);
   gap: 10px;
 }
 
+.footer .copy p {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #333;
+}
+
+.footer .copy {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #333;
+}
+
+.footer .footerContact .icon {
+  width: 25px;
+  vertical-align: middle;
+  margin: 0 5px;
+}
+
+.footerContact{
+    padding-top: 20px;
+    margin-top: 20px;
+
+}
 :root {
   --color1: #ddbea8;
   --color2: #f3dfc1;
@@ -110,4 +136,6 @@ a {
     margin: 10px 50px;
     text-align: center;
   }
+
+  
 }
