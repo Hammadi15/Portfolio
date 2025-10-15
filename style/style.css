@@ -15,8 +15,6 @@ header {
   /* padding-left: 20px; */
   padding: 0px 20px 0px 20px;
   flex-direction: row;
-  
-
 }
 
 a {
@@ -56,6 +54,32 @@ a {
   padding-top: 20px;
 }
 
+.card {
+  display: grid;
+  margin-top: 10px;
+  grid-template-columns: 1fr;
+  width: 250px;
+  grid-auto-rows: auto; /* each row fits content */
+}
+.card img {
+  width: 100%;
+  display: block; /* ensures image takes full row */
+  border-radius: 20px;
+  height: 110px;
+}
+
+.card p {
+  background-color: #8b5e58; /* brown bottom area */
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 0;
+}
+
+.projectMain {
+  display: grid;
+  justify-content: center; /* centers card horizontally */
+}
+
 .footer img {
   width: 30px;
 
@@ -86,10 +110,9 @@ a {
   margin: 0 5px;
 }
 
-.footerContact{
-    padding-top: 20px;
-    margin-top: 20px;
-
+.footerContact {
+  padding-top: 20px;
+  margin-top: 20px;
 }
 :root {
   --color1: #ddbea8;
