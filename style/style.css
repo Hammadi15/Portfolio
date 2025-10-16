@@ -199,7 +199,6 @@ textarea {
         text-align: center;
       }
 
-
       .projectMain {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -218,6 +217,4 @@ textarea {
         grid-template-columns: repeat(3, 1fr); 
         margin: 0px 0px 0px 120px;
       }
-
-
     }
